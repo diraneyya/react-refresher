@@ -1,0 +1,13 @@
+.list {
+    display: flex;
+}
+
+.item img {
+    width: 200px;
+    height: 300px;
+    margin: 1rem;
+}
+
+.item h2 {
+    align-items: center;
+}
