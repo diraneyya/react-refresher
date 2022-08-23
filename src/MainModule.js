@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 
 function MainModule(props) {
-  let { state, setState } = useState(props.sex);
+  let initialState = props.sex;
+  let [state, setState] = useState(initialState);
   return (
     <div>
-      {props.sex === "man" ? (
+      {state === "man" ? (
         <h1>his name is Mr {props.name}</h1>
       ) : (
         <h1>her name is Ms {props.name}</h1>
