@@ -1,8 +1,7 @@
-import react, { useSyncExternalStore } from "react";
+import react from "react";
 import ReactDOM from "react-dom";
 
 const name ='Manisha Sinha';
-
 const element =(
     <div className="person-item">
         <p>{name}</p>
